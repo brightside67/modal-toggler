@@ -30,7 +30,7 @@ module.exports = function modalToggler(string) {
   }
 
   if (toggleArrLength) {
-    for (var _i2 = 0; _i2 < closeArrLength; _i2++) {
+    for (var _i2 = 0; _i2 < toggleArrLength; _i2++) {
       toggleArr[_i2].addEventListener("click", function(e) {
         e.preventDefault();
         var targetNode = e.target.dataset.modalToggle;
