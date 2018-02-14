@@ -1,0 +1,23 @@
+{
+  "name": "modal-toggler",
+  "version": "0.1.0",
+  "description": "A small module to handle open/close/toggle modal windows and blocks with attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brightside67/modal-toggler.git"
+  },
+  "keywords": [
+    "html",
+    "modal"
+  ],
+  "author": "Vladimir Kosenko <vk@muvon.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brightside67/modal-toggler/issues"
+  },
+  "homepage": "https://github.com/brightside67/modal-toggler#readme"
+}
