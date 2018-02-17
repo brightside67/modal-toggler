@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = function modalToggler(options) {
+var ModalToggler = function(options, callback) {
   var optionsBox = {
     modalClass: options.modalClass || false,
     toggleClass: options.toggleClass || false,
@@ -54,4 +54,11 @@ module.exports = function modalToggler(options) {
       });
     }
   }
+  if (callback) {
+    callback();
+  }
+};
+
+module.exports = function(options, callback) {
+  return new ModalToggler(options, callback);
 };
