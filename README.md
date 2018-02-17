@@ -15,7 +15,7 @@ npm install modal-toggler
 ```javascript
 import modalToggler from "modal-toggler";
 
-modalToggler({options}, callback);
+//modalToggler({options}, callback);
 
 var MT = new modalToggler(
   {
