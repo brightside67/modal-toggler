@@ -1,6 +1,6 @@
 "use strict";
 
-modal.exports = function modalToggler(options) {
+module.exports = function modalToggler(options) {
   var optionsBox = {
     modalClass: options.modalClass || false,
     toggleClass: options.toggleClass || false,
