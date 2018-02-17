@@ -1,6 +1,6 @@
 {
   "name": "modal-toggler",
-  "version": "0.2.12",
+  "version": "0.2.2",
   "description": "A small module to handle open/close/toggle modal windows and blocks with attributes",
   "main": "index.js",
   "scripts": {
