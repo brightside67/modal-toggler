@@ -1,7 +1,6 @@
 # modal-toggler
 
-======
-Tine dependency for handle simple modals logic
+Simple logic for modals and toggle class on elements, using simple html attributes
 
 ## Installation
 
@@ -16,15 +15,17 @@ npm install modal-toggler
 ```javascript
 import modalToggler from "modal-toggler";
 
+modalToggler({options}, callback);
+
 var MT = new modalToggler(
   {
-    //specify class to show modals
+    //class to show modal
     modalClass: "visible",
-    //specify class for toggling
+    //class for toggle elements
     toggleClass: "toggle-h1",
-    //find node if you need dark background for your modals (not toggle modals)
+    //HTML Node for dark block behind the modal
     backgroundNode: ".bg-wall",
-    //specify class for dark background
+    //Class for dark background block
     backgroundClass: "visible"
   },
   function() {
@@ -90,7 +91,7 @@ var MT = new modalToggler(
 ## Data attributes
 
 ```html
-<!-- just add this attributes on HTML elements -->
+<!-- just add this attributes to HTML elements -->
 data-modal-open="${node id or class with # or dot. in front}"
 data-modal-close="${node id or class with # or dot. in front}"
 data-modal-toggle="${node id or class with # or dot. in front}"
